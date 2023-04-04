@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "xin chao",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi",
+        "Hello, ban can giup gi a",
+        "Hi there, ban can ho tro gi",
+        "Hi there, toi co the giup gi cho ban"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "cam on ban da ghe, tam biet",
+        "chuc ban mot ngay tot lanh",
+        "Bye! hen gap lai."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Shop co nhung size nhu nao?",
+        " ao shop minh co mau nhu the nao?",
+        "shop minh co ban hoodie khong "
+      ],
+      "responses": [
+        "Shop minh co nhung size s ,x ,xl",
+        "Shop minh co nhieu loai mau khac nhau co du size x toi xl",
+        "co shop minh hien tai co ban hoodie, nhiu mau khac nhau tu x toi xl"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        
+        "co nhan chuyen khoang khong",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "co ben minh thanh toan momo, chuyen khoang...",
+        "co ben minh nhan chuyen khoang",
+        "ben minh khong nhan chuyen khoang"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Shop co ban ao hoodie khong?",
+        "shop co hoodie loai nao?",
+        "hoodie con hang khong?"
+      ],
+      "responses": [
+        "Co shop co ban ao hoodie",
+        "shop co nhieu loai hoodie khac nhau"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+    ,
+    {
+      "tag": "love",
+      "patterns": [
+        "Do you have girlfriend?",
+        "Do you have boyfriend?"
+      ],
+      "responses": [
+        "I have 3 boyfriends.",
+        "I have 2 girlfriends.",
+        "Yes, i have a boyfriend."
+      ]
+    }
+    ,
+    {
+      "tag": "ahihi",
+      "patterns": [
+        "Gia ao somi bao nhiu tien "
+       
+      ],
+      "responses": [
+        "Gia ao somi co gia 350.000",
+        "ben minh het ao nay roi a"
+        
+      ]
+    },
+    {
+      "tag":"gia",
+      "patterns":["gia ao thun bao nhiu",
+      "ao thun co gia bao nhiu"
+
+      ],
+      "responses":["ao thun co gia 250.000 ngan a"
+
+      ]
+    },
+    {
+      "tag":"size",
+      "patterns":[
+        "ao thun co size gi",
+        "ao thun con size gi"
+      ],
+      "responses":[
+        "ao thun con size xl a",
+        "ao thun con size tu s toi xl a"
+      ]
+    }
+    
+  ]
+}
